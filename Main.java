@@ -13,7 +13,7 @@ public class Main {
 
     // Use Adapter class to make bluetooth headphones function
     // as wired headphones
-    IWiredHeadphones adpatedBluetoothHeadphones = new HeadphoneAdapter(bluetoothHeadphones);
+    IWiredHeadphones adpatedBluetoothHeadphones = new BluethoothToWiredAdapter(bluetoothHeadphones);
 
     // Client is able to treat bluetooth headphones as wired headphones.
     // We are able to call wired headphone functionality on bluetooth headphones
