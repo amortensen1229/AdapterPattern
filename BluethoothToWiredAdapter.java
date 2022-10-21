@@ -11,8 +11,4 @@ public class BluethoothToWiredAdapter implements IWiredHeadphones {
   public void plugIn() {
     this.bluetoothHeadphones.turnOn();
   }
-
-  public void getWireLength() {
-    
-  }
 }
