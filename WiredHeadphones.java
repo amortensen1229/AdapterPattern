@@ -1,4 +1,4 @@
-public class WiredHeadphones {
+public class WiredHeadphones implements IWiredHeadphones {
   public void playMusic() {
     System.out.println("Playing music over wired headphones.");
   }
