@@ -16,7 +16,7 @@ public class Main {
     IWiredHeadphones adpatedBluetoothHeadphones = new BluethoothToWiredAdapter(bluetoothHeadphones);
 
     // Client is able to treat bluetooth headphones as wired headphones.
-    // We are able to call wired headphone functionality on bluetooth headphones
+    // We are able to use/call wired headphone functions on bluetooth headphones
     adpatedBluetoothHeadphones.plugIn();
     adpatedBluetoothHeadphones.playMusic();
   }
