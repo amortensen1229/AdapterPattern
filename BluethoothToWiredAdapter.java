@@ -9,6 +9,7 @@ public class BluethoothToWiredAdapter implements IWiredHeadphones {
   }
 
   public void plugIn() {
+    this.bluetoothHeadphones.connectBlueTooth();
     this.bluetoothHeadphones.turnOn();
   }
 }
